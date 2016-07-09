@@ -13,6 +13,7 @@
 
 package edu.princeton.cs.algs4;
 
+import java.util.ArrayDeque;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
@@ -169,6 +170,7 @@ public class Queue<Item> implements Iterable<Item> {
             else if (!q.isEmpty()) StdOut.print(q.dequeue() + " ");
         }
         StdOut.println("(" + q.size() + " left on queue)");
+       
     }
 }
 
