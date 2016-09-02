@@ -4,9 +4,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class HashHeap {
+	//存储真实的值
     ArrayList<Integer> heap;
+    
     String mode;
     int size_t;
+    
+    //存储值，以及所对应的在heap中的位置和这个值的数量
     HashMap<Integer, Node> hash;
 
     class Node {
